@@ -1,0 +1,54 @@
+/*RESPONSIVE CSS*/
+
+@media(max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    #main-header {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        width: 100%;
+        height:120px ;
+        z-index: 1;
+        width: 100%;
+    }
+    #navigation {
+        float: none;
+    }
+    #navigation ul{
+        /* display: none; */
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    #navigation ul li{
+        /* display: none; */
+        padding: 8px;
+    }
+    #logo {
+        float: none;
+        color:#fff;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+    }
+    .showcase#about .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .showcase#art .container {
+        height:2500px;
+        width:100vw;
+    }
+    .showcase#welcome .container h1 {
+        font-size: 40px;
+    }
+
+}
